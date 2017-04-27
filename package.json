@@ -1,0 +1,19 @@
+{
+  "name": "react-practice",
+  "version": "1.0.0",
+  "description": "我的React实践",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "react-redux",
+    "react-router",
+    "react-router-redux",
+    "redux-async-connect"
+  ],
+  "author": "clh",
+  "license": "ISC"
+}
