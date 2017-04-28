@@ -20,9 +20,9 @@ function change(txt){
 
 let store=createStore(reducer);
 
+@connect(state=>({txt:state.txt}))
 class App extends React.Component{
 	changeText(){
-		console.log(this);
 		var val=this.refs.txt.value;
 		this.props.dispatch(change(val))
 	}
@@ -35,7 +35,6 @@ class App extends React.Component{
 			   </div>
 	}
 }
-App=connect(state=>({txt:state.txt}))(App)
 
 
 ReactDOM.render(
