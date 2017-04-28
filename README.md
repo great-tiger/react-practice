@@ -26,6 +26,13 @@ new webpack.ProvidePlugin({
 > 另外一种解决办法就是在index.js 增加 import React from 'react'
 > 重现，请切换到b01分支
 
+### 版本历史
+##### v0.1 
+可以正常开发React应用  
+##### v0.1.1
+......  
+
+
 ### 引用
 [webpack 1.0 官网](https://webpack.github.io/)
 [webpack 2.0 官网](https://webpack.js.org/)
