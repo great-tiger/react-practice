@@ -8,7 +8,9 @@
 > npm install --save-dev babel-loader babel-core
 > npm install --save-dev babel-preset-es2015 babel-preset-stage-0
 > npm install --save-dev babel-preset-react
-> npm install --save  react react-dom
+> npm install --save react react-dom
+支持redux
+> npm install --save redux react-redux
 
 ### 等待研究
 babel-preset-stage-0 包含的插件，支持哪些es6语法
