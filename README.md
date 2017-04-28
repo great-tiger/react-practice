@@ -14,7 +14,7 @@
 babel-preset-stage-0 包含的插件，支持哪些es6语法
 
 ### bug 及解决办法
-#### 浏览器 ReferenceError: React is not defined -->branch 01
+#### 浏览器 ReferenceError: React is not defined -->b01
 解决办法：
 增加插件  
 ```  
@@ -24,6 +24,7 @@ new webpack.ProvidePlugin({
 ```
 > 使React全局可用 开发react程序的时候，不用每次都import 'react'了
 > 另外一种解决办法就是在index.js 增加 import React from 'react'
+> 重现，请切换到b01分支
 
 ### 引用
 [webpack 1.0 官网](https://webpack.github.io/)
