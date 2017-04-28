@@ -4,7 +4,19 @@
   "description": "我的React实践",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "better-npm-run start-dev",
+    "build":"better-npm-run start-build"
+  },
+  "betterScripts": {
+    "start-dev": {
+      "command": "node ./webpack/webpack-dev-server.js",
+      "env": {}
+    },
+    "start-build": {
+      "command": "webpack --config ./webpack/webpack-build-config.js",
+      "env": {}
+    }
   },
   "keywords": [
     "react",
@@ -15,5 +27,10 @@
     "redux-async-connect"
   ],
   "author": "clh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "better-npm-run": "0.0.15",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
+  }
 }
