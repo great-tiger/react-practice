@@ -9,10 +9,15 @@
 > npm install --save-dev babel-preset-es2015 babel-preset-stage-0
 > npm install --save-dev babel-preset-react
 > npm install --save react react-dom
+
 支持redux
 > npm install --save redux react-redux
+
 支持 ES7 decorators
 > npm install babel-plugin-transform-decorators-legacy --save-dev
+
+支持DevTools
+> npm install --save-dev redux-devtools redux-devtools-dock-monitor redux-devtools-log-monitor
 
 ### 等待研究
 babel-preset-stage-0 包含的插件，支持哪些es6语法

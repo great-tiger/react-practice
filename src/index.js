@@ -1,6 +1,7 @@
 import ReactDOM from 'react-dom'
 import {createStore} from 'redux'
 import {Provider,connect} from 'react-redux'
+import DevTools from './containers/DevTools/DevTools.js'
 
 const changeText="changeText";
 
@@ -18,7 +19,7 @@ function change(txt){
 	}
 }
 
-let store=createStore(reducer);
+let store=createStore(reducer,{},DevTools.instrument());
 
 @connect(state=>({txt:state.txt}))
 class App extends React.Component{
@@ -39,7 +40,10 @@ class App extends React.Component{
 
 ReactDOM.render(
 	<Provider store={store}>
+		<div>
 	        <App />
+	        <DevTools />
+	    </div>
 	</Provider>
 ,document.getElementById('container'));       
 
