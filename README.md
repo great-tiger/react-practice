@@ -39,7 +39,9 @@ new webpack.ProvidePlugin({
 ##### v0.1 
 可以正常开发React应用  
 ##### v0.1.1
-......  
+支持react-redux  
+支持DevTools  
+
 
 
 ### 引用
