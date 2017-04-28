@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "better-npm-run start-dev",
-    "build":"better-npm-run start-build"
+    "build": "better-npm-run start-build"
   },
   "betterScripts": {
     "start-dev": {
@@ -29,6 +29,9 @@
   "author": "clh",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-stage-0": "^6.24.1",
     "better-npm-run": "0.0.15",
     "webpack": "^2.4.1",
     "webpack-dev-server": "^2.4.5"

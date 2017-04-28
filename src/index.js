@@ -1,1 +1,2 @@
-console.log('ok11');
+import test from './test'
+test();

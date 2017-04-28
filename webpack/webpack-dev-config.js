@@ -10,5 +10,10 @@ module.exports={
 		path:path.resolve(__dirname,"..","build"),
 		publicPath:"/assets/",
 		filename:"bundle.js"
+	},
+	module:{
+		loaders:[
+			{ test:/\.jsx?$/,exclude:/node_modules/,loaders:'babel-loader'}
+		]
 	}
 };

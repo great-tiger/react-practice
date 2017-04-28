@@ -7,8 +7,13 @@ module.exports={
 		app:["./index.js"]
 	},
 	output:{
-		path:path.resolve(__dirname,"..","build/assets"),
+		path:path.resolve(__dirname,"..","build"),
 		publicPath:"/assets/",
 		filename:"bundle.js"
+	},
+	module:{
+		loaders:[
+			{ test:/\.jsx?$/,exclude:/node_modules/,loaders:'babel-loader'}
+		]
 	}
 };
