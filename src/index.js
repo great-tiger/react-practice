@@ -9,7 +9,6 @@ const initialState = {
 };
 //注意：这里传入空对象，也不会用默认值的
 function reducer(state = initialState, action) {
-    console.log('reducer', state);
     if (action.type == changeText) {
         return {...state, txt: action.txt }
     }
