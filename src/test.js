@@ -1,3 +1,6 @@
-export default function test(){
-	console.log('export default test func aaaa');
+import React from 'react';
+export default class App extends React.Component{
+	render(){
+		return <div>Hello World</div>;
+	}
 }
