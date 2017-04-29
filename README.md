@@ -48,6 +48,6 @@ new webpack.ProvidePlugin({
 
 
 ### 引用
-[webpack 1.0 官网](https://webpack.github.io/)
-[webpack 2.0 官网](https://webpack.js.org/)
-[babel 官网](https://babeljs.io/)
+[webpack 1.0 官网](https://webpack.github.io/)   
+[webpack 2.0 官网](https://webpack.js.org/)   
+[babel 官网](https://babeljs.io/)   
