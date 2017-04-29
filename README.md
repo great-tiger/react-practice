@@ -19,6 +19,9 @@
 支持DevTools
 > npm install --save-dev redux-devtools redux-devtools-dock-monitor redux-devtools-log-monitor
 
+支持router
+> npm install --save react-router
+
 ### 等待研究
 babel-preset-stage-0 包含的插件，支持哪些es6语法
 

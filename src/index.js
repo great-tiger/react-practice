@@ -2,13 +2,18 @@ import ReactDOM from 'react-dom'
 import { createStore,combineReducers } from 'redux'
 import { Provider, connect } from 'react-redux'
 import DevTools from './containers/DevTools/DevTools.js'
+import Home from './containers/Home/index.js'
+import Survey from './containers/Survey/index.js'
+import About from './containers/About/index.js'
+import {Router,Route,IndexRoute,browserHistory} from 'react-router'
+import abc from 'react-router'
 
 const changeText = "changeText";
 const initialState = {
     txt: '哈哈'
 };
 //注意：这里传入空对象，也不会用默认值的
-function reducer(state = initialState, action) {
+function reducer(state = initialState, action={}) {
     if (action.type == changeText) {
         return {...state, txt: action.txt }
     }
@@ -47,8 +52,10 @@ class App extends React.Component {
 
 ReactDOM.render(
     <Provider store={store}>
-		<div>
-	        <App />
-	        <DevTools />
-	    </div>
+		<Router history={browserHistory}>
+            <Route path="/" component={Home}>
+                <Route path="s" component={Survey} />
+                <Route path="a" component={About}/>
+            </Route>
+		</Router>
 	</Provider>, document.getElementById('container'));
