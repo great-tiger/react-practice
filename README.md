@@ -20,7 +20,15 @@
 > npm install --save-dev redux-devtools redux-devtools-dock-monitor redux-devtools-log-monitor
 
 支持router
-> npm install --save react-router
+> npm install --save react-router  
+
+支持sass
+>  npm install sass-loader node-sass style-loader css-loader --save-dev 
+
+sass-loader 解析sass->css   
+css-loader 解析css->commonJs  
+style-loader 在页面创建style标签<style type="text/css"> 样式 </style>    
+这样就可以直接在页面中使用样式了。   
 
 ### 等待研究
 babel-preset-stage-0 包含的插件，支持哪些es6语法
