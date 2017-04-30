@@ -2,6 +2,7 @@
 import {Link} from 'react-router'
 export default class Home extends React.Component{
 	render(){
+		require('./home.scss');
 		return (
 			<div className="home">
 				<div className="red">Home</div>
