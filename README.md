@@ -52,7 +52,10 @@ new webpack.ProvidePlugin({
 ##### v0.1.1
 支持react-redux  
 支持DevTools  
-
+##### v0.1.2
+支持路由   
+##### v0.1.3
+支持sass  
 
 
 ### 引用
