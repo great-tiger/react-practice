@@ -56,9 +56,13 @@ new webpack.ProvidePlugin({
 支持路由   
 ##### v0.1.3
 支持sass  
+##### v0.1.4
+支持css modules  
+
 
 
 ### 引用
 [webpack 1.0 官网](https://webpack.github.io/)   
 [webpack 2.0 官网](https://webpack.js.org/)   
-[babel 官网](https://babeljs.io/)   
+[babel 官网](https://babeljs.io/)    
+[css modules](http://www.ruanyifeng.com/blog/2016/06/css_modules.html)   
