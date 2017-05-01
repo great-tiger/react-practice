@@ -30,6 +30,11 @@ css-loader 解析css->commonJs
 style-loader 在页面创建style标签<style type="text/css"> 样式 </style>    
 这样就可以直接在页面中使用样式了。   
 
+支持bootstrap  
+> npm install --save react-bootstrap bootstrap-sass  
+bootstrap-sass v3   
+
+
 ### 等待研究
 babel-preset-stage-0 包含的插件，支持哪些es6语法
 
