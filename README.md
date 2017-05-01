@@ -23,7 +23,7 @@
 > npm install --save react-router  
 
 支持sass
->  npm install sass-loader node-sass style-loader css-loader --save-dev 
+> npm install sass-loader node-sass style-loader css-loader --save-dev 
 
 sass-loader 解析sass->css   
 css-loader 解析css->commonJs  
@@ -63,7 +63,8 @@ new webpack.ProvidePlugin({
 支持sass  
 ##### v0.1.4
 支持css modules  
-
+##### v0.1.5
+支持react-bootstrap   
 
 
 ### 引用
